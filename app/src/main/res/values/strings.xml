@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Tap-GM</string>
+    <string name="todo">TODO</string>
+    <string name="tap_gm">Tap-GM</string>
+    <string name="login_title_grammar">Masuk ke Tap-GM</string>
+    <string name="login_grammar">Login terlebih dahulu untuk menggunakan Tap-GM</string>
+    <string name="email">Email</string>
+    <string name="email_field">ex: Steve Mashon@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="ex_p4s5w012d">ex: P4s5w012d</string>
+    <string name="login">Login</string>
+    <string name="regist">Belum punya akun</string>
+    <string name="register_title_grammar">Buat akun</string>
+    <string name="register_grammar">Buat akun sebelum Anda menggunakan Tap-GM</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="ex_steve_mashon">ex: Steve Mashon</string>
+    <string name="id_card_market">ID Card Market</string>
+    <string name="ex_07_b6_bb_b5">ex: 07 B6 BB B5</string>
+    <string name="pw_confirm">Ketik ulang password anda</string>
+    <string name="confirm_password">Konfirmasi Password</string>
+    <string name="register">Daftar</string>
+    <string name="do_login">Sudah punya akun</string>
+    <string name="home">Home</string>
+    <string name="kiosk">Kios</string>
+    <string name="setting">Setting</string>
+    <string name="search">Search</string>
+    <string name="tap_pay">Tap Pay</string>
+    <string name="saldo">Saldo</string>
+    <string name="rp0">Rp0</string>
+    <string name="product">Produk</string>
+    <string name="profil">Profil</string>
+    <string name="denah_pasar">Denah Pasar</string>
+    <string name="kios">Kios</string>
+    <string name="logout">Logout</string>
+</resources>
