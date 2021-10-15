@@ -1,2 +1,2 @@
-referensce configuration
+reference configuration
 
