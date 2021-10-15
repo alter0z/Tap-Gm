@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "720661758195",
+    "project_id": "tap-gm",
+    "storage_bucket": "tap-gm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720661758195:android:02ffd27bf35e401c9d3786",
+        "android_client_info": {
+          "package_name": "com.gmash.tapgm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720661758195-r21dhnlnh1gagvi8bpsj2ulmsc9jnim7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKVHXrnYlA9FKIgfG-U2ulgBkYMZeqlcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720661758195-r21dhnlnh1gagvi8bpsj2ulmsc9jnim7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

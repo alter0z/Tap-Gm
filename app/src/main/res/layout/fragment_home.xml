@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorBackgroundFloating">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/user_search"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/search_input_field_bg"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:paddingStart="17dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:textColor="?attr/colorError"
+            android:textColorHint="?attr/colorError"
+            android:textSize="14sp"
+            android:hint="@string/search"/>
+
+        <ImageView
+            android:id="@+id/user_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_search_icon"
+            android:contentDescription="@string/todo" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/card_layout_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_bold"
+            android:textSize="16sp"
+            android:textColor="@color/bluePrimary"
+            android:text="@string/tap_pay"/>
+
+        <ImageView
+            android:id="@+id/user_pay_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_pay_icon"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/user_pay_icon"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:textSize="16sp"
+            android:textColor="?attr/colorError"
+            android:text="@string/saldo"/>
+
+        <TextView
+            android:id="@+id/user_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/user_pay_icon"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:textSize="18sp"
+            android:textColor="?attr/color"
+            android:text="@string/rp0"/>
+        
+        <RelativeLayout
+            android:id="@+id/user_layout_about"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:id="@+id/user_about_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_about_icon"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/todo" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/user_layout_about"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_line_vertical"
+            android:contentDescription="@string/todo" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="16sp"
+        android:textColor="@color/bluePrimary"
+        android:text="@string/product"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/user_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</LinearLayout>

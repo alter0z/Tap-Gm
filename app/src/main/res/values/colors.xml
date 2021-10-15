@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightSty">#FFF</color>
+    <color name="lightMainBg">#F1F4F5</color>
+    <color name="darkSty">#1C242F</color>
+    <color name="darkMainBg">#233040</color>
+    <color name="light_semi_boldText">#4F565E</color>
+    <color name="light_medText">#6B7075</color>
+    <color name="light_regularText">#888F96</color>
+    <color name="dark_semi_boldText">#FCFCFC</color>
+    <color name="dark_medText">#F9F9F9</color>
+    <color name="dark_regularText">#F1F4F5</color>
+    <color name="bluePrimary">#3A8DD8</color>
+    <color name="pinkPrimary">#EC7474</color>
+    <color name="blueSec">#5EA3DE</color>
+    <color name="pinkSec">#F09393</color>
+    <color name="greenCheck">#00A273</color>
+</resources>
