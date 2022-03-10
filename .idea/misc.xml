@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ansori San/AndroidStudioProjects/TapGM/app/src/main/res/drawable/card_layout_bg.xml" value="0.34923076923076923" />
         <entry key="..\:/Users/Ansori San/AndroidStudioProjects/TapGM/app/src/main/res/layout/activity_login.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Ansori San/AndroidStudioProjects/TapGM/app/src/main/res/layout/activity_user_dashboard.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Ansori San/AndroidStudioProjects/TapGM/app/src/main/res/layout/fragment_home.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Ansori San/AndroidStudioProjects/TapGM/app/src/main/res/layout/product_item_layout.xml" value="0.3385416666666667" />
         <entry key="..\:/Users/Shou/AndroidStudioProjects/TapGM/app/src/main/res/drawable/ic_search_icon.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Shou/AndroidStudioProjects/TapGM/app/src/main/res/layout/activity_user_dashboard.xml" value="0.24094202898550723" />
         <entry key="..\:/Users/Shou/AndroidStudioProjects/TapGM/app/src/main/res/layout/fragment_home.xml" value="0.24094202898550723" />

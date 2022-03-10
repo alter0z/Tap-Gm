@@ -26,8 +26,7 @@ public class HomeFragment extends Fragment {
 
     // variables
     private TextInputEditText search;
-    private ImageView searchButton,aboutBalance;
-    private TextView balance;
+    private ImageView searchButton;
     private RecyclerView productLayout;
 
     @Nullable
@@ -39,8 +38,6 @@ public class HomeFragment extends Fragment {
         // find id
         search = view.findViewById(R.id.user_search);
         searchButton =  view.findViewById(R.id.user_search_button);
-        aboutBalance = view.findViewById(R.id.user_about_pay);
-        balance = view.findViewById(R.id.user_balance);
         productLayout = view.findViewById(R.id.user_product);
 
         // read data

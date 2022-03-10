@@ -1,7 +1,5 @@
 package com.gmash.tapgm.helperClass;
 
-import android.widget.ArrayAdapter;
-
 import androidx.annotation.NonNull;
 
 import com.gmash.tapgm.models.OwnerProductModel;
